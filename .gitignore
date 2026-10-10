@@ -1,0 +1,30 @@
+# IDE and operating system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+reset-password.php
+
+# Local exports and backups
+student-result-data.json
+*backup*
+*.zip
+
+# PHP dependencies
+/vendor/
+
+# Local database configuration
+config.local.php
+
+# Original SQL containing sample records
+/database/srms.sql
